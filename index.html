@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MAC Address Formatter</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+    <link rel="stylesheet" href="/static/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="container" style="max-width: 500px;">
+        <h1>MAC Address Formatter</h1>
+        <form>
+            <label for="macAddr">Enter Mac Address to Format: </label>
+            <input type="text" id="macAddr" name="macAddr" />
+        </form>
+        <!-- <img src="/static/images/peccy.png" /> -->
+
+        <div>
+            <h2>Output: </h2>
+            <span>
+                <div>
+                    <div></div>
+                </div>
+            </span>
+        </div>
+
+        <table class="table table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Type</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lowercase</td>
+                    <td id="macLower"></td>
+                </tr>
+                <tr>
+                    <td>Uppercase</td>
+                    <td id="macUpper"></td>
+                </tr>
+                <tr>
+                    <td>Colon</td>
+                    <td id="macColon"></td>
+                </tr>
+                <tr>
+                    <td>Colon Upper</td>
+                    <td id="macColonUpper"></td>
+                </tr>
+                <tr>
+                    <td>Dash</td>
+                    <td id="macDash"></td>
+                </tr>
+                <tr>
+                    <td>Dash Upper</td>
+                    <td id="macDashUpper"></td>
+                </tr>
+                <tr>
+                    <td>Dot</td>
+                    <td id="macDot"></td>
+                </tr>
+                <tr>
+                    <td>Dot Upper</td>
+                    <td id="macDotUpper"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="/static/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+{
+    "ext": "js, mjs, json, html",
+    "ignore": [
+        "bundle.min.js",
+        ".git",
+        "node_modules/*",
+        "eslintrc.json"
+    ]
+}

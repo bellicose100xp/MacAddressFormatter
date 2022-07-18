@@ -1,0 +1,19 @@
+{
+  "name": "js-mac-addr-formatter",
+  "version": "1.0.0",
+  "description": "Mac Address Formatter",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chahcha@amazon.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3"
+  }
+}
