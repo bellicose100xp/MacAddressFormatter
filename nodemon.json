@@ -1,5 +1,5 @@
 {
-    "ext": "js, mjs, json, html",
+    "ext": "js, mjs, json, html, css",
     "ignore": [
         "bundle.min.js",
         ".git",

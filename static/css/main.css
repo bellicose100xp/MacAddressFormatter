@@ -1,0 +1,13 @@
+#mac-table tr th:nth-child(2) {
+    text-align: center;
+}
+
+#mac-table tr td:nth-child(2) {
+    text-align: center;
+}
+
+#mac-form {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}

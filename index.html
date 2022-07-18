@@ -6,27 +6,19 @@
     <title>MAC Address Formatter</title>
     <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
     <link rel="stylesheet" href="/static/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/static/css/main.css" />
 </head>
 
 <body>
-    <div class="container" style="max-width: 500px;">
-        <h1>MAC Address Formatter</h1>
-        <form>
-            <label for="macAddr">Enter Mac Address to Format: </label>
+    <div id="main-container" class="container" style="max-width: 700px;">
+        <h1 style="text-align: center;">MAC Address Formatter</h1>
+        <form id="mac-form">
+            <label for="macAddr">Enter MAC Address to Format: </label>
             <input type="text" id="macAddr" name="macAddr" />
         </form>
         <!-- <img src="/static/images/peccy.png" /> -->
 
-        <div>
-            <h2>Output: </h2>
-            <span>
-                <div>
-                    <div></div>
-                </div>
-            </span>
-        </div>
-
-        <table class="table table-hover">
+        <table id="mac-table" class="table table-hover">
             <thead class="table-dark">
                 <tr>
                     <th>Type</th>
@@ -47,7 +39,7 @@
                     <td id="macColon"></td>
                 </tr>
                 <tr>
-                    <td>Colon Upper</td>
+                    <td>Colon Uppercase</td>
                     <td id="macColonUpper"></td>
                 </tr>
                 <tr>
@@ -55,7 +47,7 @@
                     <td id="macDash"></td>
                 </tr>
                 <tr>
-                    <td>Dash Upper</td>
+                    <td>Dash Uppercase</td>
                     <td id="macDashUpper"></td>
                 </tr>
                 <tr>
@@ -63,7 +55,7 @@
                     <td id="macDot"></td>
                 </tr>
                 <tr>
-                    <td>Dot Upper</td>
+                    <td>Dot Uppercase</td>
                     <td id="macDotUpper"></td>
                 </tr>
             </tbody>
