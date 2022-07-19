@@ -1,9 +1,9 @@
-#mac-table tr th:nth-child(2) {
+#mac-table {
     text-align: center;
 }
 
 #mac-table tr td:nth-child(2) {
-    text-align: center;
+    font-family: Consolas, monaco, monospace;
 }
 
 #mac-form {

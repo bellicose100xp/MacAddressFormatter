@@ -11,18 +11,28 @@
 
 <body>
     <div id="main-container" class="container" style="max-width: 700px;">
-        <h1 style="text-align: center;">MAC Address Formatter</h1>
-        <form id="mac-form">
-            <label for="macAddr">Enter MAC Address to Format: </label>
-            <input type="text" id="macAddr" name="macAddr" />
+        <!-- <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1">MAC Address Formatter</span>
+            </div>
+          </nav> -->
+
+        <div class="row" style="background-color: #e3f2fd;">
+            <h1 style="text-align: center;">MAC Address Formatter</h1>
+        </div>
+        
+        
+        
+        <form id="mac-form" class="input-group" >
+            <span class="input-group-text">MAC Address to Format </span>
+            <input class="form-control" type="text" id="macAddr" name="macAddr" />
         </form>
-        <!-- <img src="/static/images/peccy.png" /> -->
 
         <table id="mac-table" class="table table-hover">
-            <thead class="table-dark">
+            <thead>
                 <tr>
                     <th>Type</th>
-                    <th>Value</th>
+                    <th>Formatted Value</th>
                 </tr>
             </thead>
             <tbody>
